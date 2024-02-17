@@ -1,0 +1,76 @@
+/* nav css  */
+.menu_text {
+  letter-spacing: 0px;
+  color: #4e4949;
+  opacity: 1;
+}
+
+/* --xx-- */
+
+/* hero section css  */
+.bg_img {
+  background-image: url("../imgs/HOME\ BANNER!.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.card-title_text {
+  font: normal normal normal 21px/34px Abril Fatface;
+  letter-spacing: 1.43px;
+  color: #76ce07;
+}
+.card-title_2 {
+  font: normal normal normal 26px/34px Abril Fatface;
+  letter-spacing: 1.77px;
+  color: #ffffff;
+}
+.bg-dark_card {
+  background: #262626be 0% 0% no-repeat padding-box;
+  opacity: 1;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+.card-text_css {
+  text-align: left;
+  font: normal normal normal 19px/28px Work Sans;
+  letter-spacing: 0px;
+  color: #d6d6d6;
+  opacity: 1;
+}
+.card-bg-glass {
+  background: #262626be 0% 0% no-repeat padding-box;
+  opacity: 1;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  color: white;
+}
+/* --xx-- */
+
+/* about section  */
+.card-bg_img_1{
+   border: 3px solid rgba(0, 128, 0, 0.358);
+   border-radius: 10px;
+   -webkit-box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.23);
+-moz-box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.269);
+box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.219);
+}
+/* --xx-- */
+
+/* grid section start */
+.grid_heading{
+    text-align: left;
+    font: normal normal medium 23px/42px Work Sans;
+    letter-spacing: 0px;
+    color: #4E4949;
+    opacity: 1;
+}
+.bg-line{
+    background-image: url("../imgs/bacground\ lines.svg");
+}
+.Text_para{
+    text-align: left;
+font: normal normal normal 18px/26px Work Sans;
+letter-spacing: 0px;
+color: #949494;
+opacity: 1;
+}
+/* --xx-- */
