@@ -1,3 +1,14 @@
+/* logo  */
+.logo_size{
+  height: 72px;
+}
+
+@media screen and (max-width:500px) {
+  .logo_size{
+height: 50px;
+  }
+ }
+/* --xx-- */
 /* nav css  */
 .menu_text {
   letter-spacing: 0px;
@@ -72,5 +83,48 @@ font: normal normal normal 18px/26px Work Sans;
 letter-spacing: 0px;
 color: #949494;
 opacity: 1;
+}
+/* --xx-- */
+
+/* footer  */
+.text-muted_color{
+  color: gray;
+}
+/* --xx-- */
+
+/* contact us  */
+.contact_text{
+  text-align: right;
+font: normal normal normal 26px/43px Work Sans;
+letter-spacing: 0px;
+color: #4E4949;
+opacity: 1;
+}
+
+.img_position{
+  top: 0px;
+  height: 700px;
+}
+
+.mar_top{
+  margin-top: 100px;
+}
+@media screen and (min-width:1000px) {
+  .text_contact{
+    width: 50%;
+  }
+}
+@media screen and (max-width:1000px) {
+ .mob_view{
+  margin-top: 300px;
+ }
+}
+
+.icon_contact{
+  background-color: green;
+  color: white;
+  font-size: 25px;
+  padding: 10px 15px;
+  border-radius: 100px;
 }
 /* --xx-- */
