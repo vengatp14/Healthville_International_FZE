@@ -14,6 +14,9 @@
 
     <!-- boostrap icons  -->
     <link rel="stylesheet" href="./assets/vendor/icons-1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- css aos animation  -->
+    <link rel="stylesheet" href="./assets/vendor/aos-master/dist/aos.css">
 </head>
 
 <body>
@@ -59,7 +62,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="card bg-dark_card mt-5">
+                        <div class="card bg-dark_card mt-5 " data-aos="fade-right" data-aos-duration="1500">
                             <div class="card-body">
                                 <span class="card-title_text b-block">Welcome to</span>
                                 <h5 class="card-title_2">Healthville International FZE</h5>
@@ -70,7 +73,7 @@
                     </div>
                     <div class="col-lg-12">
                         <div class="row">
-                            <div class="col-lg-3">
+                            <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1500">
                                 <div class="card my-lg-5 my-1 card-bg-glass">
                                     <div class="card-body">
                                         <img src="./assets/imgs/Why.svg" height="80px" alt="">
@@ -78,7 +81,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3">
+                            <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1500">
                                 <div class="card my-lg-5 my-1 card-bg-glass">
                                     <div class="card-body">
                                         <div class="d-flex justify-content-center">
@@ -91,7 +94,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3">
+                            <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1500">
                                 <div class="card my-lg-5 my-1 card-bg-glass">
                                     <div class="card-body">
                                         <div class="d-flex justify-content-center">
@@ -104,7 +107,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3">
+                            <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1500">
                                 <div class="card my-lg-5 my-1 card-bg-glass">
                                     <div class="card-body">
                                         <div class="d-flex justify-content-center">
@@ -129,118 +132,138 @@
 
         <!-- grid section start  -->
         <section class="container-fluid mt-5">
-<div class="row">
-    <div class="col-lg-4 bg-line">
-        <div class="d-flex justify-content-between">
-          <div class="mt-5 ">
-            <span class="b-block grid_heading ">
-                Food and Beverage
-            </span>
-          </div>
-           <div>
-            <img src="./assets/imgs/food.svg" class="mt-3" height="80px" alt="">
-           </div>
-        </div>
-        <p class="Text_para">We offer a diverse range of food and beverage products sourced from trusted suppliers worldwide.</p>
-        <p class="Text_para">From gourmet specialties to everyday essentials, we provide top-quality products to meet the needs of our clients in the foodservice, retail, and hospitality sectors.</p>
-    </div>
-    <div class="col-lg-4  px-0">
-        <img src="./assets/imgs/eco-friendly-cosmetics-decorated-with-green-leaves-ai-generated.png" class="h-100 w-100" alt="">
-    </div>
-    <div class="col-lg-4  bg-line">
-        <div class="d-flex justify-content-between">
-          <div class="mt-5 ">
-            <span class="b-block grid_heading ">
-                Medical Instrumentation
-            </span>
-          </div>
-           <div>
-            <img src="./assets/imgs/medical.svg" class="mt-3" height="80px" alt="">
-           </div>
-        </div>
-        <p class="Text_para">HEALTHVILLE INTERNATIONAL FZE is your reliable source for medical instrumentation and supplies.</p>
-        <p class="Text_para">We supply hospitals, clinics, and healthcare facilities with a comprehensive range ofmedical devices, equipment, and consumables to support patient care and treatment.</p>
-    </div>
-    <div class="col-lg-4  px-0">
-        <img src="./assets/imgs/3432@2x.png" class="h-100 w-100" alt="">
-    </div>
-    <div class="col-lg-4  bg-line">
-        <div class="d-flex justify-content-between">
-          <div class="mt-5 ">
-            <span class="b-block grid_heading ">
-                Health and Beauty
-            </span>
-          </div>
-           <div>
-            <img src="./assets/imgs/food.svg" class="mt-3" height="80px" alt="">
-           </div>
-        </div>
-        <p class="Text_para">Discover our selection of premium health and beauty products, including skincare, haircare, and personal care items.</p>
-        <p class="Text_para">We partner with leading brands and manufacturers to offer our clients a wide range of high-quality products to enhance their well-being and beauty regimen.</p>
-    </div>
-    <div class="col-lg-4  px-0">
-        <img src="./assets/imgs/flat-lay-pills-stethoscope-arrangement@2x.png" class="h-100 w-100" alt="">
-    </div>
-</div>
+            <div class="row">
+                <div class="col-lg-4 bg-line">
+                    <div class="d-flex justify-content-between">
+                        <div class="mt-5 ">
+                            <span class="b-block grid_heading ">
+                                Food and Beverage
+                            </span>
+                        </div>
+                        <div>
+                            <img src="./assets/imgs/food.svg" class="mt-3" height="80px" alt="">
+                        </div>
+                    </div>
+                    <p class="Text_para">We offer a diverse range of food and beverage products sourced from trusted
+                        suppliers worldwide.</p>
+                    <p class="Text_para">From gourmet specialties to everyday essentials, we provide top-quality
+                        products to meet the needs of our clients in the foodservice, retail, and hospitality sectors.
+                    </p>
+                </div>
+                <div class="col-lg-4  px-0">
+                    <img src="./assets/imgs/eco-friendly-cosmetics-decorated-with-green-leaves-ai-generated.png"
+                        class="h-100 w-100" alt="">
+                </div>
+                <div class="col-lg-4  bg-line">
+                    <div class="d-flex justify-content-between">
+                        <div class="mt-5 ">
+                            <span class="b-block grid_heading ">
+                                Medical Instrumentation
+                            </span>
+                        </div>
+                        <div>
+                            <img src="./assets/imgs/medical.svg" class="mt-3" height="80px" alt="">
+                        </div>
+                    </div>
+                    <p class="Text_para">HEALTHVILLE INTERNATIONAL FZE is your reliable source for medical
+                        instrumentation and supplies.</p>
+                    <p class="Text_para">We supply hospitals, clinics, and healthcare facilities with a comprehensive
+                        range ofmedical devices, equipment, and consumables to support patient care and treatment.</p>
+                </div>
+                <div class="col-lg-4  px-0">
+                    <img src="./assets/imgs/3432@2x.png" class="h-100 w-100" alt="">
+                </div>
+                <div class="col-lg-4  bg-line">
+                    <div class="d-flex justify-content-between">
+                        <div class="mt-5 ">
+                            <span class="b-block grid_heading ">
+                                Health and Beauty
+                            </span>
+                        </div>
+                        <div>
+                            <img src="./assets/imgs/food.svg" class="mt-3" height="80px" alt="">
+                        </div>
+                    </div>
+                    <p class="Text_para">Discover our selection of premium health and beauty products, including
+                        skincare, haircare, and personal care items.</p>
+                    <p class="Text_para">We partner with leading brands and manufacturers to offer our clients a wide
+                        range of high-quality products to enhance their well-being and beauty regimen.</p>
+                </div>
+                <div class="col-lg-4  px-0">
+                    <img src="./assets/imgs/flat-lay-pills-stethoscope-arrangement@2x.png" class="h-100 w-100" alt="">
+                </div>
+            </div>
         </section>
         <!-- grid section end  -->
 
-       <!-- footer section start  -->
-       <div class="bg-dark mt-5">
-        <section class="container">
-            <div class="row py-3">
-                <div class="col-lg-1">
-                    <span class="text-muted_color"><a href="index.html" class="text-decoration-none text-muted_color">Home</a></span>
-                </div>
-                <div class="col-lg-1">
-                    <span class="text-muted_color"><a href="about_us.html" class="text-decoration-none text-muted_color">About</a></span>
-                </div>
-                <div class="col-lg-1">
-                    <span class="text-muted_color"><a href="Services.html" class="text-decoration-none text-muted_color">Services</a></span>
-                </div>
-                <div class="col-lg-1">
-                    <span class="text-muted_color"><a href="Contact_us.html" class="text-decoration-none text-muted_color">Contact</a></span>
-                </div>
-                <div class="col-lg-12 py-3">
-                    <div class="row">
-                        <div class="col-lg text-muted_color"><img src="./assets/imgs/call.svg" height="17px" class="me-1" alt=""><a href="tel:+971 4886 7002" class="text-decoration-none text-muted_color">+971 4886 7002 | +971 50 975 8747</a> </div>
-                        <div class="col-lg text-muted_color"><img src="./assets/imgs/mail.svg" height="17px" class="me-1" alt=""><a href="mailto:Contact@healthville.com" class="text-decoration-none text-muted_color"> Contact@healthville.com </a></div>
-                       
-                            <div class="col-lg text-muted_color">  <a href="https://maps.app.goo.gl/MmteuXMCoHthmicP8" class="text-decoration-none text-muted_color"><img src="./assets/imgs/location.svg" height="17px" class="me-1" alt=""> Find Location </a></div>
-                     
+        <!-- footer section start  -->
+        <div class="bg-dark mt-5">
+            <section class="container">
+                <div class="row py-3">
+                    <div class="col-lg-1">
+                        <span class="text-muted_color"><a href="index.html"
+                                class="text-decoration-none text-muted_color">Home</a></span>
                     </div>
-                </div>
-                <div class="col-lg-12 pb-3">
-                    <div class="row">
-                        <div class="col-lg-3 text-muted_color">
-                            <a class="text-muted_color" href="">AJMAN FREE ZONE C1 BUILDING</a>
-                        </div>
-                        <div class="col-lg text-muted_color">
-                            <span>Ajman free zone , Ajman , united arabemirates p.o.Box 103781 DXB UAE</span>
-                        </div>
-                        <div class="col-lg-2">
-                            <img src="./assets/imgs/fb.svg" class="ms-2" height="20px" alt="">
-                            <img src="./assets/imgs/tweeter.svg" class="ms-2" height="20px" alt="">
-                            <img src="./assets/imgs/instagram.svg" class="ms-2" height="20px" alt="">
-                            <img src="./assets/imgs/whatsapp.svg" class="ms-2" height="20px" alt="">
+                    <div class="col-lg-1">
+                        <span class="text-muted_color"><a href="about_us.html"
+                                class="text-decoration-none text-muted_color">About</a></span>
+                    </div>
+                    <div class="col-lg-1">
+                        <span class="text-muted_color"><a href="Services.html"
+                                class="text-decoration-none text-muted_color">Services</a></span>
+                    </div>
+                    <div class="col-lg-1">
+                        <span class="text-muted_color"><a href="Contact_us.html"
+                                class="text-decoration-none text-muted_color">Contact</a></span>
+                    </div>
+                    <div class="col-lg-12 py-3">
+                        <div class="row">
+                            <div class="col-lg text-muted_color"><img src="./assets/imgs/call.svg" height="17px"
+                                    class="me-1" alt=""><a href="tel:+971 4886 7002"
+                                    class="text-decoration-none text-muted_color">+971 4886 7002 | +971 50 975 8747</a>
+                            </div>
+                            <div class="col-lg text-muted_color"><img src="./assets/imgs/mail.svg" height="17px"
+                                    class="me-1" alt=""><a href="mailto:Contact@healthville.com"
+                                    class="text-decoration-none text-muted_color"> Contact@healthville.com </a></div>
+
+                            <div class="col-lg text-muted_color"> <a href="https://maps.app.goo.gl/MmteuXMCoHthmicP8"
+                                    class="text-decoration-none text-muted_color"><img src="./assets/imgs/location.svg"
+                                        height="17px" class="me-1" alt=""> Find Location </a></div>
+
                         </div>
                     </div>
-                </div>
+                    <div class="col-lg-12 pb-3">
+                        <div class="row">
+                            <div class="col-lg-3 text-muted_color">
+                                <a class="text-muted_color" href="">AJMAN FREE ZONE C1 BUILDING</a>
+                            </div>
+                            <div class="col-lg text-muted_color">
+                                <span>Ajman free zone , Ajman , united arabemirates p.o.Box 103781 DXB UAE</span>
+                            </div>
+                            <div class="col-lg-2">
+                                <img src="./assets/imgs/fb.svg" class="ms-2" height="20px" alt="">
+                                <img src="./assets/imgs/tweeter.svg" class="ms-2" height="20px" alt="">
+                                <img src="./assets/imgs/instagram.svg" class="ms-2" height="20px" alt="">
+                                <img src="./assets/imgs/whatsapp.svg" class="ms-2" height="20px" alt="">
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-lg-12">
                         <img src="./assets/imgs/Headerline.svg" class="img-fluid" alt="">
                     </div>
                     <div class="d-flex justify-content-lg-end">
                         <p class="text-muted_color mb-0 pb-0">© 2023.. All Rights Reserved</p>
                     </div>
-            </div>
-        </section>
-       </div>
+                </div>
+            </section>
+        </div>
         <!-- footer section end  -->
 
 
     </main>
 
-
+    <!-- js aos animation  -->
+    <script src="./assets/vendor/aos-master/dist/aos.js"></script>
     <!-- coustom js  -->
     <script src="./assets/js/main.js"></script>
     <!-- boostrap js  -->
