@@ -24,6 +24,24 @@ height: 50px;
   background-repeat: no-repeat;
   background-size: 100%;
 }
+
+.bg_img_contact{
+  background-image: url("../imgs/banner/Group\ 13616@2x.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.bg_img_about{
+  background-image: url("../imgs/banner/Group\ 13615@2x.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.bg_img_service{
+  background-image: url("../imgs/banner/Group\ 13617@2x.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
 .card-title_text {
   font: normal normal normal 21px/34px Abril Fatface;
   letter-spacing: 1.43px;
@@ -151,4 +169,10 @@ box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.262);
 }
 .nav-pills .nav-link {
  color: #76ce07;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: #f8f9fa;
+  background: green;
+  border-radius: 15px;
 }
