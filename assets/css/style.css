@@ -189,7 +189,7 @@
 
 .carousel-indicators .active {
   opacity: 1;
-  color: !important;
+  color: green !important;
   background: green;
   height: 10px;
   border-radius: 50%;
